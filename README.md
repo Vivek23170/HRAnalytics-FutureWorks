@@ -59,7 +59,7 @@ This method not only streamlined the initial data handling process but also prov
 **Outcome:** This relationship facilitates seamless integration of diverse data points, enhancing the dashboard's capability to deliver multidimensional insights and supporting complex queries that span across both datasets.
 
 ## Designing Report Structure
-**Implementation:*** The reports were meticulously structured across three distinct pages to ensure a logical flow of information, catering to both high-level overviews and detailed analyses:
+**Implementation:** The reports were meticulously structured across three distinct pages to ensure a logical flow of information, catering to both high-level overviews and detailed analyses:
 - **Welcome Page:** Serves as the introduction, providing users with an overview of what to expect in the dashboard and how to navigate through various sections.
 
 - **Attrition Page:** Focuses on detailed attrition analytics, offering insights into turnover rates, trends, and patterns across different demographics and job roles.
