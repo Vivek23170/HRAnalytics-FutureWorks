@@ -62,11 +62,19 @@ This method not only streamlined the initial data handling process but also prov
 **Process:** Established a relationship between the Job and Employee tables using Employee ID as the primary key. This link ensures a robust data structure that allows for accurate and comprehensive analysis across employee attributes and job-related metrics.
 **Outcome:** This relationship facilitates seamless integration of diverse data points, enhancing the dashboard's capability to deliver multidimensional insights and supporting complex queries that span across both datasets.
 
+![image](https://github.com/user-attachments/assets/47ceda3f-b5be-47fe-8533-fed4417a9a30)
+
+
 ## Designing Report Structure
 **Implementation:** The reports were meticulously structured across three distinct pages to ensure a logical flow of information, catering to both high-level overviews and detailed analyses:
 - **Welcome Page:** Serves as the introduction, providing users with an overview of what to expect in the dashboard and how to navigate through various sections.
 
+  ![image](https://github.com/user-attachments/assets/66d3494f-770a-4733-ae6a-b09980016fa8)
+
+
 - **Attrition Page:** Focuses on detailed attrition analytics, offering insights into turnover rates, trends, and patterns across different demographics and job roles.
+
+ ![image](https://github.com/user-attachments/assets/b24d56b8-fb57-4050-8ae4-407cff3d9596)
 
 - **Satisfaction Insights Page:** Delivers comprehensive analysis on employee satisfaction, highlighting areas of strength and opportunities for improvement within the organization.
 
@@ -84,4 +92,7 @@ This method not only streamlined the initial data handling process but also prov
 
 ## Adding Dynamic Nature
 **Interactivity:** Incorporated slicers, filters, and other interactive elements that allow users to customize views according to their specific needs.
+
+
+
 
