@@ -60,11 +60,11 @@ This method not only streamlined the initial data handling process but also prov
 
 ## Designing Report Structure
 **Implementation:*** The reports were meticulously structured across three distinct pages to ensure a logical flow of information, catering to both high-level overviews and detailed analyses:
-- 1. **Welcome Page:** Serves as the introduction, providing users with an overview of what to expect in the dashboard and how to navigate through various sections.
+- **Welcome Page:** Serves as the introduction, providing users with an overview of what to expect in the dashboard and how to navigate through various sections.
 
-- 2. **Attrition Page:** Focuses on detailed attrition analytics, offering insights into turnover rates, trends, and patterns across different demographics and job roles.
+- **Attrition Page:** Focuses on detailed attrition analytics, offering insights into turnover rates, trends, and patterns across different demographics and job roles.
 
-- 3. **Satisfaction Insights Page:** Delivers comprehensive analysis on employee satisfaction, highlighting areas of strength and opportunities for improvement within the organization.
+- **Satisfaction Insights Page:** Delivers comprehensive analysis on employee satisfaction, highlighting areas of strength and opportunities for improvement within the organization.
 
 **Navigation:** Each page features navigation bars that allow for easy switching between reports, ensuring a user-friendly experience that facilitates quick access to needed information.
 
