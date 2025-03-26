@@ -25,4 +25,59 @@ EmployAnalytics-FutureWorks is a strategic initiative aimed at leveraging advanc
 **Source:** The dataset was sourced from Kaggle, featuring detailed employee data ideal for analyzing workforce trends and patterns.
 [Dataset source](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
+## Making Strategies
+**Approach:** Developed a comprehensive strategy to address the specific needs of workforce planning and management. The focus was placed on identifying and analyzing key metrics that significantly impact employee attrition and satisfaction. This strategic approach involved:
+
+  - **Metric Identification:** Pinpointing the most influential factors contributing to employee turnover and job satisfaction based on historical data trends observed in the dataset. This includes variables such as job role, tenure, salary, work environment, and performance ratings.
+  - **Data-driven Insights:** Leveraging data to derive insights that inform targeted interventions. For example, understanding which departments have higher attrition rates and what common characteristics are shared among employees who leave the company.
+  - **Predictive Analysis:** Planning to use predictive analytics to forecast future trends in employee behavior.
+    
+This aims to proactively manage potential issues before they impact the workforce adversely.
+This strategy ensures that the dashboard and associated analyses not only reflect historical data but also equip HR professionals and decision-makers with actionable intelligence to optimize their workforce strategies effectively.
+
+## Data Loading
+**Process:** Instead of directly connecting to an external data source, the dataset was initially downloaded and stored locally. This approach was chosen to allow for preliminary review and any necessary preprocessing steps that are easier to handle offline. After ensuring the data's integrity and format were suitable for analysis, it was uploaded into Power BI for further transformation and visualization.
+
+- **Local Storage:** The data was downloaded from Kaggle and saved to a secure local directory. This step ensured that we had a stable version of the data for initial explorations without continuous reliance on an external source.
+
+- **Upload to Power BI:** Once the local data validation and preliminary checks were completed, the dataset was uploaded into Power BI. This was done by importing the local file through the 'Get Data' feature in Power BI, selecting ‘Excel’ as the source format.
+
+This method not only streamlined the initial data handling process but also provided an opportunity to cleanse and prepare the data comprehensively before it was used for creating the dashboard and conducting detailed analyses.
+
+## Data Transformation
+**Process:** Data transformation was meticulously handled using Power Query in Power BI to ensure the dataset was optimized for analysis. This involved several crucial steps:
+- **Initial Data Review:** The dataset, sourced from Kaggle and loaded locally, was initially reviewed in Power Query. This review confirmed that the data was largely clean, with minimal inconsistencies or missing values, indicative of the high quality of data management practices at the source.
+- **Handling Missing Values:** Minimal missing values in the dataset were determined to be non-impactful on analyses, so they were left unchanged to maintain data authenticity.
+- **Data Type Adjustments:** Some fields in the dataset were found to have inappropriate data types for the intended analysis. For instance, numerical codes representing categories (like Education Level) were initially loaded as integers. These were converted to categorical data types to accurately reflect their descriptive nature and facilitate correct analysis handling.
+- **Checking for Ambiguity:** The data was scrutinized for any ambiguity, especially in categorical variables where different terms might have been used interchangeably. Standardizing terms and consolidating similar values ensured consistency across the dataset. For example, job titles with minor variations in wording were standardized to a uniform format.
+- **Final Data Check:** After all transformations, a final check was conducted to ensure data integrity, consistency, and readiness for the next stages of analysis and visualization in the Power BI environment.
+
+**Outcome:** These thorough data transformation efforts resulted in a clean, consistent, and analytically robust dataset that was then utilized to develop insightful visualizations and predictive models in the subsequent stages of the project.
+
+## Data Modeling
+**Process:** Established a relationship between the Job and Employee tables using Employee ID as the primary key. This link ensures a robust data structure that allows for accurate and comprehensive analysis across employee attributes and job-related metrics.
+**Outcome:** This relationship facilitates seamless integration of diverse data points, enhancing the dashboard's capability to deliver multidimensional insights and supporting complex queries that span across both datasets.
+
+## Designing Report Structure
+**Implementation:*** The reports were meticulously structured across three distinct pages to ensure a logical flow of information, catering to both high-level overviews and detailed analyses:
+- 1. **Welcome Page:** Serves as the introduction, providing users with an overview of what to expect in the dashboard and how to navigate through various sections.
+
+- 2. **Attrition Page:** Focuses on detailed attrition analytics, offering insights into turnover rates, trends, and patterns across different demographics and job roles.
+
+- 3. **Satisfaction Insights Page:** Delivers comprehensive analysis on employee satisfaction, highlighting areas of strength and opportunities for improvement within the organization.
+
+**Navigation:** Each page features navigation bars that allow for easy switching between reports, ensuring a user-friendly experience that facilitates quick access to needed information.
+
+**Outcome:** This structured approach not only enhances the user experience but also ensures that stakeholders can access tailored insights efficiently, from strategic overviews to granular data explorations.
+
+## Identifying Measures to Calculate
+**Key Metrics:** Identified critical metrics such as attrition rate, employee satisfaction index, and others that influence strategic decisions.
+
+## Implementing the Dashboard
+
+## Adding Required Visuals
+**Visuals Added:** Integrated various charts and graphs that dynamically represent the underlying data, such as bar charts, line graphs, and pie charts.
+
+## Adding Dynamic Nature
+**Interactivity:** Incorporated slicers, filters, and other interactive elements that allow users to customize views according to their specific needs.
 
