@@ -92,6 +92,8 @@ This method not only streamlined the initial data handling process but also prov
 
 ## Adding Dynamic Nature
 **Interactivity:** Incorporated slicers, filters, and other interactive elements that allow users to customize views according to their specific needs.
+## File Deliverables
+This document includes all Power Query M-code scripts used to clean and transform the original HR dataset. It outlines the steps applied to standardize fields, convert data types, and enhance the dataset for use in the Power BI dashboard.
 
 
 
